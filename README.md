@@ -12,6 +12,13 @@ Aplicación de ejemplo que implementa un CRUD de empleados con API REST usando S
 - Docker Desktop (Windows/Mac/Linux)
 - Opcional: Java 17 y Maven 3 si quieres ejecutar sin Docker
 
+## Repositorio
+
+### Clonar el repositorio (si ya existe remoto)
+```bash
+git clone https://github.com/ppadilla7/docker-compose-crud-java.git
+cd docker-compose-2
+```
 ## Ejecutar con Docker Compose
 1. Construir y levantar los servicios:
    ```bash
@@ -135,3 +142,5 @@ Si el puerto 8080 está ocupado, cambia `server.port` en `application.properties
 
 ## Licencia
 Proyecto de ejemplo para uso educativo.
+
+
